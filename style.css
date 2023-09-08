@@ -1,0 +1,70 @@
+ 
+
+.toggler-button {
+  color: #ca1111;
+  transition: transform 0.3s ease-in-out;
+}
+
+.toggler-button .navbar-toggler-icon {
+  color: rgba(0, 0, 0, 0);
+  background-color: #eeeeee00;
+}
+
+
+.toggler-button.collapsed {
+  transform: rotate(180deg);
+}
+
+.carousel-inner{
+  padding-top: 1px;
+}
+
+.img-Katagori{
+  width: 50px;
+
+}
+
+.img-Katagori:hover{
+  border: 1px solid #fff;
+  transform: matrix(1.2);
+  animation: alternate;
+}
+
+.card:hover{
+  border: 3px solid #ca1111;
+  animation: reverse;
+  
+}
+.btn:hover{
+  border: #eeeeee so;
+  transition: 0.1s;
+  animation: both;
+}
+
+.row-container{
+  background-color: #eeeeee;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer h3 {
+  color: #fff;
+}
+
+.footer p {
+  font-size: 14px;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
